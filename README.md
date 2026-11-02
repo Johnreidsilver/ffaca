@@ -8,9 +8,9 @@ Either run the displayed ffmpeg command right in the UI with console view, or co
 
 Requirements:  
 Python  
-pillow
-python3-pil.imagetk (pillow-tk bindings)
-ffmpeg
+pillow  
+python3-pil.imagetk (pillow-tk bindings)  
+ffmpeg  
 
 if no keyframes are shown, make sure you have installed python3-pil.imagetk:  
 sudo apt install python3-pil.imagetk  
