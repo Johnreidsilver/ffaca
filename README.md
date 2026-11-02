@@ -16,8 +16,8 @@ if no keyframes are shown, make sure you have installed python3-pil.imagetk:
 sudo apt install python3-pil.imagetk  
 
 keyboard shortcuts:  
-+ next frame  
-- previous frame  
+[+] next frame  
+[-] previous frame  
  
 
 You are free to use, improve and otherwise modify this code and freely share your new code.
