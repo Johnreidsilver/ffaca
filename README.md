@@ -7,13 +7,17 @@ With FFACA you can view all the keyframes and also navigate to non-keyframes and
 Either run the displayed ffmpeg command right in the UI with console view, or copy the command and further tweak the encoding options to run in a terminal window of your choosing!
 
 Requirements:  
+ffmpeg  
 Python  
 pillow  
 python3-pil.imagetk (pillow-tk bindings)  
-ffmpeg  
+tkinterdnd2 (for drag&drop support)  
 
 if no keyframes are shown, make sure you have installed python3-pil.imagetk:  
 sudo apt install python3-pil.imagetk  
+
+if you want drag&drop support install tkinterdnd2 in a virtual environment or at system level:
+sudo pip install tkinterdnd2 --break-system-packages
 
 keyboard shortcuts:  
 [+] next frame  
