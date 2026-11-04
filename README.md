@@ -16,13 +16,16 @@ tkinterdnd2 (for drag&drop support)
 if no keyframes are shown, make sure you have installed python3-pil.imagetk:  
 sudo apt install python3-pil.imagetk  
 
-if you want drag&drop support install tkinterdnd2 in a virtual environment or at system level:
-sudo pip install tkinterdnd2 --break-system-packages
+if you want drag&drop support install tkinterdnd2 in a virtual environment or at system level:  
+sudo pip install tkinterdnd2 --break-system-packages  
 
 keyboard shortcuts:  
 [+] next frame  
 [-] previous frame  
- 
+[←] 1 second backward  
+[→] 1 second forward  
+[↑] first frame of the video  
+[↓] last frame of the video  
 
 You are free to use, improve and otherwise modify this code and freely share your new code.
 Made with the assistance of local LLM running on renewable energy. Use at your own risk. Gluten and lactose free. No animals were harmed in the making. If symptoms persist, consult your doctor.
